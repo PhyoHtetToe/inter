@@ -16,7 +16,7 @@ class index
             ["Redmi", "192.168.0.108", "redmi", "123", "1"]
         ];
         $this->db = new dbgen();
-        $this->db->fetchAllShops(1);
+        // $this->db->fetchAllShops(1);
     }
 }
 new index;
